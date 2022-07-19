@@ -63,7 +63,7 @@ False. It uses a procedural style.
 <summary>What kind of automation you wouldn't do with Ansible and why?</summary><br><b>
 
 While it's possible to provision resources with Ansible, some prefer to use tools that follow immutable infrastructure paradigm.
-Ansible doesn't saves state by default. So a task that creates 5 instances for example, when executed again will create additional 5 instances (unless
+Ansible doesn't save state by default. So a task that creates 5 instances for example, when executed again will create additional 5 instances (unless
 additional check is implemented or explicit names are provided) while other tools might check if 5 instances exist. If only 4 exist (by checking the state file for example), one additional instance will be created to reach the end goal of 5 instances.
 </b></details>
 

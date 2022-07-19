@@ -14,7 +14,7 @@
 
 1. **Q:** **Can you establish a peering connection to a VPC in a different REGION?**
 
-    - **Ans:** Not possible. Peering Connection are available only between VPC in the same region.
+    - **Ans:** You can establish peering relationships between VPCs across different AWS Regions (also called inter-Region VPC peering).
 
 1. **Q: Can you connect your VPC with a VPC owned by another AWS account?**
 
